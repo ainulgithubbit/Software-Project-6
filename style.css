@@ -1,0 +1,431 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("image/img1.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+nav{
+	display: flex;
+	padding: 3% 5%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav h3{
+	color: white;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.nav-menu{
+	flex:1;
+	text-align: right;
+
+}
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 12px;
+	position: relative;
+}
+.nav-menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-menu ul li::after{
+	content: '';
+	width: 0px;
+	height: 4px;
+	background: white;
+	display: block;
+	margin: auto;
+	position: absolute;
+	bottom: -4px;
+	transition: .5s;
+}
+.nav-menu ul li:hover::after{
+	width: 100%;
+}
+
+.profile-image{
+	width: 18%;
+	position: absolute;
+	top: 18%;
+	right: 60;
+}
+
+
+.titlediscription{
+	width: 80%;
+	color: white;
+	position: absolute;
+	top: 49%;
+	left: 27%;
+}
+
+.btn{
+    display: inline-block;
+    background: purple;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #563434;
+}
+
+.ban-1{
+     width: 15%;
+     position: absolute;
+     top: 112%;
+     left: 23%;
+}
+.ban-2{
+     width: 16%;
+     position: absolute;
+     top: 109%;
+     left: 40.5%;
+}
+.ban-3{
+     width: 17%;
+     position: absolute;
+     top: 106%;
+     left: 59%;
+}
+nav span{
+	display: none;
+}
+
+@media(max-width: 700px){
+	.titlediscription{
+	width: 80%;
+	color: white;
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	text-align: center;
+}
+.profile-image{
+	width: 30%;
+	position: absolute;
+	top: 52%;
+	left: 42%;
+}
+/* General Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for .titlediscriptionh1 */
+.titlediscriptionh1 {
+    font-size: 20px;
+}
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  width: 250px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.latest {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+/*---------- footer ----------*/
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    min-width: 250px;
+    margin-bottom: 20px;
+    position: absolute;
+	top: 200%;
+	left: 8%;
+
+}
+.footer-col-1{
+    flex-basis: 30%;
+    position: absolute;
+    top: 280%;
+    right: 16%;
+    
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 200px;
+    margin-bottom: 18px;
+}
+.footer-col-3{
+    flex-basis: 12%;
+    position: absolute;
+	top: 280%;
+	right: 16%;
+}
+
+.footer-col-4{
+     flex-basis: 12%;
+    position: absolute;
+	top: 280%;
+	right: 6%;
+}
+
+@media(max-width: 700px){
+.footer-col-4{
+    position: absolute;
+	top: 715%;
+	right: 6%;
+	text-align: center;
+}
+.footer-col-3{
+    position: absolute;
+	top: 696%;
+	right: 5%;
+	text-align: center;
+}
+.footer-col-1{
+    width: 15%;
+	position: absolute;
+	top: 695%;
+	left: 1%;
+}
+	
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
+
+.col-4 p{
+    font-size: 14px;
+}
+.rating .fa{
+    color: #ff523b;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}	
+
+nav span {
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    width: 300px;
+    top: 0;
+    right: -300px;
+    text-align: left;
+    z-index: 1;
+}
+
+.nav-menu ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+.nav-menu ul {
+    padding: 20px;
+}
+
+
+
+
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2b2c92;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul li {
+    margin: 0 15px;
+}
+
+.profile-image {
+    width: 250px;
+    top: 150px;
+    border-radius: 50%;
+}
+
+/* Responsive Navigation Menu for Mobile View */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu ul li {
+        margin: 20px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        background-color: #444;
+        padding: 10px 20px;
+        color: white;
+        font-size: 18px;
+    }
+
+    .close-menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+/* For Larger Screens (Desktop and Tablet) */
+@media (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        position: static;
+        height: auto;
+        background-color: transparent;
+        flex-direction: row;
+    }
+
+    .nav-menu ul {
+        flex-direction: row;
+    }
+
+    .close-menu {
+        display: none;
+    }
+}
+
